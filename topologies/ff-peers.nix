@@ -3,6 +3,24 @@
 # Pull-requests against this file will be merged and deployed once a day.
 [
   {
+    operator = "CoinTourage";
+    poolID = "7cf695d8577cd137377514d6ce10e2bbde9dc7a90afee3a8c17187d9";
+    metadataUrl = “https://cointourage.com/CoinTourage.json”
+    meatadataHash = “e752f00fb61d92dc52b05b6b40d1e123fa91f94e3f03c1520388b7ba01ab6e0b”;
+    addr = "pool.cointourage.com";
+    port = 3000;
+  }
+  {
+    operator = "CoinTourage";
+    addr = "relay1.cointourage.com";
+    port = 3001;
+  }
+  {
+    operator = "CoinTourage";
+    addr = "relay2.cointourage.com";
+    port = 3002;
+  }
+  {
     operator = "disassembler";
     addr = "prophet.samleathers.com";
     port = 3001;
